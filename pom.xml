@@ -22,7 +22,9 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
                     <archive>
-                        <mainClass>minimumSpanningTreeFinder.Main</mainClass>
+			<manifest>
+                       		 <mainClass>minimumSpanningTreeFinder.Main</mainClass>
+			</manifest>
                     </archive>
                 </configuration>
             </plugin>
